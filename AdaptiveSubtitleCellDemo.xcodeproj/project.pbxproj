@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		910DCB7E1EC9125D007324AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DCB7D1EC9125D007324AD /* AppDelegate.swift */; };
-		910DCB801EC9125D007324AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DCB7F1EC9125D007324AD /* ViewController.swift */; };
+		910DCB801EC9125D007324AD /* AdaptiveSubtitleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DCB7F1EC9125D007324AD /* AdaptiveSubtitleTableViewController.swift */; };
 		910DCB831EC9125D007324AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910DCB811EC9125D007324AD /* Main.storyboard */; };
 		910DCB851EC9125D007324AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910DCB841EC9125D007324AD /* Assets.xcassets */; };
 		910DCB881EC9125D007324AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910DCB861EC9125D007324AD /* LaunchScreen.storyboard */; };
+		910DCB901EC9137F007324AD /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DCB8F1EC9137F007324AD /* ConfigurableCell.swift */; };
+		910DCB921EC9138B007324AD /* DefaultSubtitleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DCB911EC9138B007324AD /* DefaultSubtitleTableViewController.swift */; };
+		910DCB941EC91394007324AD /* SubtitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DCB931EC91394007324AD /* SubtitleCell.swift */; };
+		910DCB961EC913A4007324AD /* SubtitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910DCB951EC913A4007324AD /* SubtitleCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		910DCB7A1EC9125D007324AD /* AdaptiveSubtitleCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdaptiveSubtitleCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		910DCB7D1EC9125D007324AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		910DCB7F1EC9125D007324AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		910DCB7F1EC9125D007324AD /* AdaptiveSubtitleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveSubtitleTableViewController.swift; sourceTree = "<group>"; };
 		910DCB821EC9125D007324AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		910DCB841EC9125D007324AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		910DCB871EC9125D007324AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		910DCB891EC9125D007324AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910DCB8F1EC9137F007324AD /* ConfigurableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
+		910DCB911EC9138B007324AD /* DefaultSubtitleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSubtitleTableViewController.swift; sourceTree = "<group>"; };
+		910DCB931EC91394007324AD /* SubtitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleCell.swift; sourceTree = "<group>"; };
+		910DCB951EC913A4007324AD /* SubtitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubtitleCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				910DCB7D1EC9125D007324AD /* AppDelegate.swift */,
-				910DCB7F1EC9125D007324AD /* ViewController.swift */,
+				910DCB7F1EC9125D007324AD /* AdaptiveSubtitleTableViewController.swift */,
 				910DCB811EC9125D007324AD /* Main.storyboard */,
+				910DCB8F1EC9137F007324AD /* ConfigurableCell.swift */,
+				910DCB911EC9138B007324AD /* DefaultSubtitleTableViewController.swift */,
+				910DCB931EC91394007324AD /* SubtitleCell.swift */,
+				910DCB951EC913A4007324AD /* SubtitleCell.xib */,
 				910DCB841EC9125D007324AD /* Assets.xcassets */,
 				910DCB861EC9125D007324AD /* LaunchScreen.storyboard */,
 				910DCB891EC9125D007324AD /* Info.plist */,
@@ -96,7 +108,6 @@
 				TargetAttributes = {
 					910DCB791EC9125D007324AD = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = CRHANGC22U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				910DCB881EC9125D007324AD /* LaunchScreen.storyboard in Resources */,
+				910DCB961EC913A4007324AD /* SubtitleCell.xib in Resources */,
 				910DCB851EC9125D007324AD /* Assets.xcassets in Resources */,
 				910DCB831EC9125D007324AD /* Main.storyboard in Resources */,
 			);
@@ -137,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				910DCB801EC9125D007324AD /* ViewController.swift in Sources */,
+				910DCB941EC91394007324AD /* SubtitleCell.swift in Sources */,
+				910DCB901EC9137F007324AD /* ConfigurableCell.swift in Sources */,
+				910DCB801EC9125D007324AD /* AdaptiveSubtitleTableViewController.swift in Sources */,
 				910DCB7E1EC9125D007324AD /* AppDelegate.swift in Sources */,
+				910DCB921EC9138B007324AD /* DefaultSubtitleTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,11 +276,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CRHANGC22U;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AdaptiveSubtitleCellDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brad.AdaptiveSubtitleCellDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +291,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CRHANGC22U;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AdaptiveSubtitleCellDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brad.AdaptiveSubtitleCellDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +321,7 @@
 				910DCB8E1EC9125D007324AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
