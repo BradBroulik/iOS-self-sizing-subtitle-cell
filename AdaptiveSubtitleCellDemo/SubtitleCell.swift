@@ -1,5 +1,3 @@
-//  If the detailText field isn't necessary just set it to hidden and the titleText will be centered in the UIStackView.
-
 import UIKit
 
 struct SubtitleCellData {
